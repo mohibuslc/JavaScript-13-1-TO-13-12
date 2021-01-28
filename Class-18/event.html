@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+
+<body>
+    <h1 onclick="HandClick()"> Exploraing Event</h1>
+    
+    <button onmouseout="HandClick()">Click me</button>
+    <button>click-me-0</button>
+    <button id="hellow">click-me-1</button>
+    <button>click-me-2</button>
+
+       
+
+    
+    <script> 
+    
+    // add  EventListener  using Javascript : class 18/8 : 
+
+        document.getElementById('hellow').addEventListener('click', function(){
+
+            
+            document.body.style.backgroundColor ='tomato';
+
+        })
+
+      //  function HandClick() {
+
+        //    console.log('Hallow Some One Click Me.');
+        
+    </script>
+</body>
+
+</html>
